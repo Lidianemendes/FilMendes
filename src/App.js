@@ -83,6 +83,7 @@ export default class App extends Component {
           </Ul>
         </Menu>
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/movies" element={<Movies />} />
           <Route path="/series" element={<Series />} />

@@ -41,7 +41,8 @@ const StarMain = styled.div`
   border-radius: 5%;
 `;
 const Img = styled.img`
-  height: 50vh;
+  height: 49vh;
+  border-radius: 50%;
 `;
 const StarOne = styled.div`
   display: flex;
@@ -54,7 +55,7 @@ const TitleOne = styled.h1`
   color: #bd4291;
 `;
 const Overview = styled.p`
-  width: 94%;
+  width: 98%;
   font-size: 17px;
 `;
 

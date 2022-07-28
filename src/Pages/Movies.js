@@ -41,7 +41,8 @@ const StarMain = styled.div`
   border-radius: 5%;
 `;
 const Img = styled.img`
-  height: 50vh;
+  height: 49vh;
+  border-radius: 50%;
 `;
 const StarTwo = styled.div`
   display: flex;
@@ -54,8 +55,8 @@ const TitleTwo = styled.h2`
   color: #bd4291;
 `;
 const Overview = styled.p`
-  width: 94%;
-  font-size: 17px;
+  width: 98%;
+  font-size: 16px;
 `;
 
 const ApiFilms = Axios.create({
